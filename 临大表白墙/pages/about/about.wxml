@@ -1,0 +1,19 @@
+<loading hidden="{{loadingHide}}">
+  {{loadingText}}
+</loading>
+<!--pages/view/view.wxml-->
+<view class="viewNr">
+<view class='about-wei'>
+    <view class='about-img'><image src='/image/logo.jpg' class='in-img'  background-size="cover" mode='scaleToFill'></image> </view>
+    <view class='about-title'>一棵树网络科技有限公司</view>
+  </view>
+
+
+
+<text>
+一棵树网络科技有限公司是一家专业从事互联网服务的企业，专注于企业网站策划建设、微信公众平台开发、网站优化、网店装修、网店代运营、推广帐户托管等服务。
+</text>
+<text> 
+公司自成立以来一直扮演着以网建生产加工为主的商业模式，无论在价格或技术服务水平上都受到业界渠道合作商与客户的认可。
+</text>
+</view>

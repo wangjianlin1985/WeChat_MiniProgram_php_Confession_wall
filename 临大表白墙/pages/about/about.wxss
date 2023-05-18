@@ -1,0 +1,34 @@
+/* pages/view/view.wxss */
+.viewNr{
+    width: 85%;
+    display:  block;
+    margin: 0 8%;
+    padding: 24rpx 0;
+    color: #333;
+    
+}
+.viewNr text{
+  width: 100%;
+  display: block;
+  text-indent: 25px;
+}
+.about-wei{
+  text-align: center;
+  }
+
+.about-img{
+  display: block;
+  width: 124px;
+  height: 110px;
+  margin: 20px auto 0;
+}
+
+.about-title{
+  display: inline-block;
+  margin: 20px 0;
+}
+.in-img{
+width: 124px;
+height: 110px;
+
+}

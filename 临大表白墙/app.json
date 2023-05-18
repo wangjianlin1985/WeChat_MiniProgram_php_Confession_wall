@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/mobile/mobile",
+    "pages/view/view",
+    "pages/user/user",
+    "pages/ulist/ulist",
+    "pages/about/about",
+    "pages/lianx/lianx"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "临大表白墙",
+    "navigationBarBackgroundColor": "#FA7080",
+    "backgroundColor": "#EEEEEE",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#FA7080",
+    "borderStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/12.png",
+        "selectedIconPath": "image/11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "image/32.png",
+        "selectedIconPath": "image/31.png",
+        "text": "表白"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "image/42.png",
+        "selectedIconPath": "image/41.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,34 @@
+<block url="" wx:for="{{infoList}}" wx:key="">
+    <view class="item">
+      <navigator url="../view/view?id={{item.id}}" class="navigator-item">
+        <view class="UserName">
+          <view class="UserPic">
+            <image src="{{item.headimgurl}}" class='userTou'></image>
+            <view class='Uico'>
+              <block wx:if="{{item.gender == 1}}">
+                  <image src="../../image/boy.png" mode="widthFix" class='userIco'></image>
+              </block>
+              <block wx:else>
+                  <image src="../../image/gril.png" mode="widthFix" class='userIco'></image>
+              </block>
+            </view>
+          </view>
+          <view class="UserDate-a">
+              对{{item.buser}}表白
+          </view>
+        </view>
+        <text class="textCms">{{item.content}}</text>
+        <view class="viPhoto" wx:if="{{item.photo != null}}">
+            <view class="wiPhoto">
+              <block>
+              <image class="poster" src="{{picUrl}}{{item.photo}}" mode="aspectFill"></image>
+              </block>
+            </view>
+          </view>
+      <view class="datetime">
+          <label class="pl"><image src="../../image/pl.png" class="plimg"></image>{{item.plnum}}</label>
+          <label class="tm"><image src="../../image/time.png" class="tmimg"></image>{{item.datetime}}</label>
+      </view>  
+      </navigator>
+    </view>
+  </block>
